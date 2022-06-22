@@ -4,7 +4,7 @@ const $sections = [...document.querySelectorAll("section")];
 function classHandle(e, listArr, listClass) {
     listArr.map(t => {
         t.classList.remove(listClass);
-    })
+    });
     e.classList.add(listClass);
 };
 

@@ -9,7 +9,7 @@ function classHandle(e, listArr, listClass) {
 };
 
 for (let i = 0; i < $btns.length; i++) {
-    $btns[i].addEventListener("click", (e) => {
+    $btns[i].addEventListener("click", e => {
         e.preventDefault();
         classHandle(e.currentTarget, $btns, "handle1");
         classHandle($sections[i], $sections, "handle2");
